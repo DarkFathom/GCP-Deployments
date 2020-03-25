@@ -1,0 +1,12 @@
+imports:
+- path: instance.jinja
+- path: ../startup-script.sh
+  name: startup-script.sh
+
+resources:
+- name: app-svr
+  type: instance.jinja
+  properties:
+    metadata-from-file:
+      startup-script: startup-script.sh
+    zone: us-central1-a
