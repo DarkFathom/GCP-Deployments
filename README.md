@@ -14,5 +14,6 @@ run:
 
 
 Example: "...create my-deployment --config..." will result in
-    deployment name:    my-deployment1
-    vm name:            app-svr-my-deployment1
+
+deployment name:    my-deployment1
+vm name:            app-svr-my-deployment1
