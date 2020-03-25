@@ -13,7 +13,7 @@ run:
 "gcloud deployment-manager deployments create [DEPLOYMENT NAME] --config config.yaml"
 
 
-Example: "...create my-deployment --config..." will result in
+Example: "...create my-deployment1 --config..." will result in
 
 deployment name:    my-deployment1
 
